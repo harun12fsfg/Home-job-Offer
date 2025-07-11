@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>USPS Job Service</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #000;
+      color: white;
+      padding: 20px;
+      background-image: url('https://i.ibb.co/VW08k0Xh/photo-1586991359975-54500b7d8a86.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 20px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .header h1 {
+      background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 42px;
+      animation: blink 1s infinite;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+    .subtitle-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 40px;
+    }
+    .text-block {
+      flex: 1 1 45%;
+    }
+    .text-block h2 {
+      font-size: 54px;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+    .text-block p {
+      font-size: 36px;
+      font-weight: bold;
+      color: #fff;
+    }
+    .text-block span {
+      color: goldenrod;
+      font-size: 48px;
+      font-weight: bold;
+    }
+    .image-block {
+      flex: 1 1 45%;
+      text-align: center;
+    }
+    .image-block img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .benefits {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+    .box {
+      background-color: #111;
+      border: 1px solid #333;
+      color: white;
+      padding: 15px;
+      margin: 10px;
+      border-radius: 8px;
+      width: 45%;
+      text-align: center;
+      flex: 1 1 45%;
+    }
+    .button-container {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .join-btn {
+      padding: 15px 30px;
+      font-size: 22px;
+      border: none;
+      border-radius: 8px;
+      background: rgb(0, 255, 127);
+      color: black;
+      cursor: pointer;
+      animation: pulse 1.5s infinite;
+      transition: background 0.3s ease;
+    }
+    .join-btn:hover {
+      background: rgb(50, 255, 150);
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    @media(max-width: 768px) {
+      .subtitle-container {
+        flex-direction: column;
+      }
+      .box {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="container">
+      <div class="header">
+        <h1>USPS JOB SERVICE</h1>
+      </div>
+      <div class="subtitle-container">
+        <div class="text-block">
+          <h2>We are Hiring Work From Home</h2>
+          <p><span>$15-$30</span> Per Hour & application needed position availbe</p>
+        </div>
+        <div class="image-block">
+          <img src="https://i.ibb.co/RTBV3623/Best-Work-From-Home-Jobs.jpg" alt="Work From Home">
+        </div>
+      </div>
+      <div class="benefits">
+        <div class="box">Flexible Schedule</div>
+        <div class="box">Weekly Pay</div>
+        <div class="box">No Experience Needed</div>
+        <div class="box">Paid Training</div>
+        <div class="box">Health Insurance</div>
+        <div class="box">Remote Work</div>
+        <div class="box">24/7 Support</div>
+        <div class="box">Quick Hiring</div>
+        <div class="box">Growth Opportunity</div>
+        <div class="box">Incentive Bonus</div>
+        <div class="box">Team Culture</div>
+        <div class="box">Career Development</div>
+        <div class="box">Job Security</div>
+        <div class="box">Full Time & Part Time</div>
+        <div class="box">Easy Tasks</div>
+        <div class="box">US Based Clients</div>
+      </div>
+      <div class="button-container">
+        <a href="https://www.homebaseworks.in/?gad_source=1&gad_campaignid=16597590895&gbraid=0AAAAAD2KGU-n12abZ-X0FJuuZMIPKB9DS&gclid=CjwKCAjw7MLDBhAuEiwAIeXGIQeTTLcKGrVNDPnNGbchP2iMSq1UeRlZ4kogeP5zOILSCuWOfoW4UxoC8DoQAvD_BwE" target="_blank">
+          <button class="join-btn">Join Now</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
